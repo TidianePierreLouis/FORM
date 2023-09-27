@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Formbytid</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+<body>
+    <form>
+        <label for="pseudo">Pseudo* :</label>
+            <input type="text" name="pseudo" id="pseudo" required />
+                <br>
+                <br>
+        <label for="mot de passe">Mot de passe : </label>
+            <input type="password" name="mot de passe" id="mot de passe" required />
+                <br>
+        <label for="Prenom">Votre Prenom :</label>
+            <input type="text" name="Prenom" id="Prenom" required placeholder="Votre Prenom" />
+                <br>
+        <label for="Email">Email :</label>
+             <input type="text" name="Email" id="Email" required />
+                <br>
+                  <label>Avatar</label>
+            <input type="file" id="avatar1" accept="image/*">
+        <label for="avatar" id="file-label1"></label>
+                    <h2>Pays</h2>
+        <select id="pays">
+            <option value="Albanie">Albanie </option>
+            <option value="Allemagne">Allemagne</option>
+            <option value="Autriche">Autriche</option>
+            <option value="Belgique">Belgique </option>
+            <option value="Bulgarie">Bulgarie</option>
+            <option value="Chypre">Chypre</option>
+            <option value="Croatie">Croatie </option>
+            <option value="Danemark">Danemark</option>
+            <option value="Espagne">Espagne</option>
+            <option value="Estonie">Estonie </option>
+            <option value="Finlande">Finlande</option>
+            <option value="France">France</option>
+            <option value="Grèce">Grèce </option>
+            <option value="Hongrie">Hongrie</option>
+            <option value="Irlande">Irlande</option>
+            <option value="Italie">Italie </option>
+            <option value="Lettonie">Lettonie</option>
+            <option value="Lituanie">Lituanie</option>
+            <option value="Luxembourg">Luxembourg </option>
+            <option value="Malte">Malte</option>
+            <option value="Pays-Bas">Pays-Bas</option>
+            <option value="Pologne">Pologne </option>
+            <option value="Portugal">Portugal</option>
+            <option value="République tchèque">République tchèque</option>
+            <option value="Roumanie">Roumanie</option>
+            <option value="Slovaquie">Slovaquie</option>
+            <option value="Slovénie">Slovénie </option>
+            <option value="Suède">Suède</option>
+        </select>
+
+                <h2>Quels sont vos fruits préférés ?</h2>
+            <input type="checkbox"  id="orange" name="fruits" value="orange">
+        <label for="orange" >Orange</label>
+            <input type="checkbox" id="fraise" name="fruits" value="fraise">
+        <label for="fraise" >Fraise</label>
+            <input type="checkbox" id="poire" name="fruits" value="poire">
+        <label for="poire" >Poire</label>
+                <br>
+                <br>
+        <label>Civilité</label>
+                <br>
+            <input type="radio" name="Civilité" id="homme" value="homme" />
+        <label for="homme">Homme</label>
+
+            <input type="radio" name="Civilité" id="femme" value="femme" />
+        <label for="femme">Femme</label>
+
+            <input  type="radio"  name="Civilité" id="autre" value="autre" />
+        <label for="autre">Autre</label>
+                <br>
+        <label for="Ville">Ville</label>
+            <input type="text" name="Ville" id="Ville" required />
+                <br>
+        <label for="Code Postal">Code Postal</label>
+            <input type="text" name="Code Postal" id="Code Postal" required />
+                <br>
+        <label for="adresse">Adresse :</label>
+            <textarea id="adresse" name="adresse" rows="4" cols="50"></textarea>
+                <br>
+        <label for="Date de naissance">Date de naissance :</label>
+            <input type="text" name="Date de naissance" id="Date de naissance1" required placeholder="mm/dd/yyyy" />
+                <br>
+        <label>Jauge</label>
+            <input  type="range" min="0" max="100" step="1" value="50" id="jauge" >
+                <br>
+        <label for="Telephone">Téléphone</label>
+            <input type="text" name="Telephone" id="Telephone" required />
+                <br>
+        <label for="Recherche">Recherche</label>
+            <input type="text" name="Recherche" id="Recherche" required />
+                <br>
+        <label for="color">Couleur</label>
+            <input type="color" id="color">
+                <br>
+        <label>Avatar</label>
+            <input type="file" id="avatar" accept="image/*">
+        <label for="avatar" id="file-label"></label>
+                <br>
+        <label for="Nom">Nom</label>
+            <input type="text" name="Nom" id="Nom1" required placeholder ="test" />
+                <br>
+        <button type="submit">S'inscrire </button>
+                <br>
+        <button type="submit" >S'inscrire autre bouton </button>
+                <br>
+            <input type="text" name="Date de naissance" id="Date de naissance" required placeholder="mm / dd / yyyy" />
+        <label for="Nom">Votre Nom :</label>
+            <input type="text" name="Nom" id="Nom" required placeholder="bonjour" />
+        <button type="submit" >Envoyer </button>
+
+</form>
+
+</body>
+</html>
